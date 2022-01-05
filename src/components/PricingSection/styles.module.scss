@@ -21,6 +21,10 @@
     margin-top: 1rem;
     font-size: 1.125rem;
   }
+
+  @media (max-width: 1596px) {
+    width: 95%;
+  }
 }
 
 .pricingCardsContainer {
@@ -32,6 +36,12 @@
 
   margin-top: 6rem;
   margin-bottom: 5%;
+
+  @media (max-width: 1290px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
 }
 
 .card {

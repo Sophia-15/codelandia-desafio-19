@@ -17,7 +17,7 @@ export function AppSection() {
           </div>
         </div>
 
-        <img src="./notification.svg" alt="Guy using cellphone" />
+        <img className={styles.notificationImg} src="./notification.svg" alt="Guy using cellphone" />
       </div>
     </section>
   );

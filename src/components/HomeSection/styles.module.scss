@@ -1,8 +1,18 @@
 .homeSection {
-  height: calc(100vh - 4.375rem);
+  min-height: 100vh;
   background-color: var(--white-200);
 
   display: flex;
+
+  @media (max-width: 950px) {
+    padding-bottom: 3rem;
+  }
+
+  @media (max-width: 530px) {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .homeContent {
@@ -13,6 +23,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1596px) {
+    width: 95%;
+  }
+  
+  @media (max-width: 950px) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .leftSection {

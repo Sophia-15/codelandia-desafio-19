@@ -1,5 +1,5 @@
 .appSection {
-  height: 29.6875rem;
+  min-height: 29.6875rem;
   background-color: var(--white-200);
 
   display: flex;
@@ -13,6 +13,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 1596px) {
+    width: 95%;
+  }
+
+  @media (max-width: 950px) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media (max-width: 510px) {
+    .notificationImg {
+      width: 95%;
+    }
+  }
 }
 
 .leftSection {
@@ -42,6 +58,23 @@
       &:hover {
         transform: translateY(-5px);
       }
+    }
+  }
+
+  @media (max-width: 950px) {
+    p {
+      width: 100%;
+    }
+
+    .downloadApps {
+      justify-content: center;
+      padding-bottom: 3rem;
+    }
+  }
+
+  @media (max-width: 395px) {
+    .downloadApps {
+      flex-wrap: wrap;
     }
   }
 }
