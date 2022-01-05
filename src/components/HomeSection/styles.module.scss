@@ -1,0 +1,44 @@
+.homeSection {
+  height: calc(100vh - 4.375rem);
+  background-color: var(--white-200);
+
+  display: flex;
+}
+
+.homeContent {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSection {
+  h1 {
+    font-size: 3rem;
+    color: var(--gray-200);
+  }
+
+  button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--white);
+
+    background-color: var(--blue);
+    padding: 1rem 2.25rem;
+    border-radius: 3.125rem;
+
+    margin-top: 3.125rem;
+    border: 2px solid transparent;
+
+    transition: all .3s;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 1px 3px 4px 0px #137DE080;
+    }
+  }
+}

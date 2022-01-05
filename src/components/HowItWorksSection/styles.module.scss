@@ -1,0 +1,41 @@
+.howItWorks {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  height: 29.6875rem;
+
+
+  h1 {
+    display: block;
+    text-align: center;
+    margin: 3.5rem 0 5rem;
+    font-size: 2.5rem;
+    color: var(--gray-200);
+  }
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 15rem;
+
+  h3 {
+    margin: 1.875rem 0 1rem;
+    color: var(--gray-200);
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.625rem;
+    color: var(--gray);
+  }
+}

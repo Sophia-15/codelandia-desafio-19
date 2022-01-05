@@ -1,0 +1,47 @@
+.appSection {
+  height: 29.6875rem;
+  background-color: var(--white-200);
+
+  display: flex;
+}
+
+.appContainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftSection {
+  h2 {
+    font-size: 2rem;
+    color: var(--gray-200);
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    color: var(--gray);
+    line-height: 1.625rem;
+    width: 27.75rem;
+
+    margin: 1.5rem 0 2rem;
+  }
+
+  .downloadApps {
+    display: flex;
+    align-items: center;
+    gap: 1.3125rem;
+
+    img {
+      cursor: pointer;
+      transition: transform .3s;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
